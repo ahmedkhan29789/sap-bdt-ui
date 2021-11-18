@@ -6,7 +6,7 @@ using {
 } from '@sap/cds/common';
 
 annotate cuid with {
-    ID @(
+    ID @( 
         title : '{i18n>ID}',
         UI.HiddenFilter,
         Core.Computed
